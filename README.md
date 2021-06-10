@@ -46,6 +46,10 @@ Finally we emit LLVM IR:
 
 The results will be in `rust2c-llvm-cbe/target/debug/deps` with suffix `.ll`.
 
+## Build binary via llvm-cbe
+
+    sh build.sh
+
 ## More
 
 Cross build the [Rust part of pyca/cryptography](https://github.com/pyca/cryptography/tree/main/src/rust) to [m86k](https://wiki.debian.org/M68k/QemuSystemM68k).
